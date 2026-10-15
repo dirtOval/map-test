@@ -1,0 +1,15 @@
+// NERACOOS publishes one ERDDAP dataset per buoy per sensor, so the app needs
+// a list of which datasets to pull. Only A01_ocean_002m has been checked against
+// its live Data Access Form; add more by looking up each dataset's variable names.
+//
+// Find candidates (titles, ids, bounding boxes):
+// https://data.neracoos.org/erddap/tabledap/allDatasets.htmlTable?datasetID,title,minLongitude,maxLongitude,minLatitude,maxLatitude,maxTime
+export const BUOYS = [
+  {
+    id: "A01_ocean_002m", // A01, Massachusetts Bay, 2 m
+    label: "A01 Massachusetts Bay (2 m)",
+    tempVar: "temperature", // degree_Celsius
+    qcVar: "temperature_qc_agg", // QARTOD aggregate flag, 1 = PASS
+  },
+  // { id: "...", label: "...", tempVar: "...", qcVar: "..." },
+];
