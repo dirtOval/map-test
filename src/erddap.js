@@ -3,6 +3,7 @@
 import { BUOYS } from "./buoys";
 
 const BASE = import.meta.env.VITE_ERDDAP_BASE ?? "https://data.neracoos.org/erddap";
+//this is here to avoid CORS in development. uses proxy to make requests.
 
 async function fetchBuoy(buoy, days) {
   const cols = ["station", "time", "longitude", "latitude", "depth", buoy.tempVar];

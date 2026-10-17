@@ -1,11 +1,23 @@
 import { useEffect, useRef, useState } from "react";
+
 import * as maplibregl from "maplibre-gl" ;
 import "maplibre-gl/dist/maplibre-gl.css";
+//^ need this stylesheet to use maplibre-gl. map will break otherwise.
+
 import { fetchFrames } from "./erddap";
 import "./App.css";
 
 const SOURCE = "buoys";
-const COLORS = ["#2c3e8f", "#2f7fb8", "#5cc2b5", "#f2e394", "#f29e4c", "#c8352b"];
+//what is the purpose of this, claude?
+//i'm guessing it's a variable in case i want to change the name later
+//if i incorporate more data sources that are not buoys.
+
+const COLORS = ["#2c3e8f",
+                "#2f7fb8",
+                "#5cc2b5",
+                "#f2e394",
+                "#f29e4c",
+                "#c8352b"];
 
 // Evenly spaced stops across the observed range, so a color means the same
 // temperature in every frame.
@@ -41,7 +53,7 @@ export default function App() {
       zoom: 5.5,
     });
     map.addControl(new maplibregl.NavigationControl({ showCompass: false }));
-
+    //^zoom buttons.
     map.on("load", () => {
       map.addSource(SOURCE, {
         type: "geojson",
@@ -58,7 +70,6 @@ export default function App() {
           "circle-stroke-width": 1.5,
         },
       });
-
       map.on("click", "buoy-points", (e) => {
         const f = e.features[0];
         const { t, label, depth } = f.properties;
@@ -69,6 +80,7 @@ export default function App() {
       });
       map.on("mouseenter", "buoy-points", () => (map.getCanvas().style.cursor = "pointer"));
       map.on("mouseleave", "buoy-points", () => (map.getCanvas().style.cursor = ""));
+      //^manage behavior + appearance of buoy points here.
 
       setMapReady(true);
     });
@@ -86,7 +98,8 @@ export default function App() {
   useEffect(() => {
     if (!mapReady || !data) return;
     const map = mapRef.current;
-    map.setPaintProperty("buoy-points", "circle-color", [
+    map.setPaintProperty("buoy-points", "circle-color",
+      [
       "interpolate", ["linear"], ["get", "t"], ...rampFor(data.range),
     ]);
 
@@ -104,11 +117,11 @@ export default function App() {
   }, [mapReady, data, idx]);
 
   // 5. Playback.
-  const count = data?.frames.length ?? 0;
+  const count = data?.frames.length ?? 0; //0 instead of undefined, prevents breaking.
   useEffect(() => {
     if (!playing || count === 0) return;
     const id = setInterval(() => setIdx((i) => (i + 1) % count), 400);
-    return () => clearInterval(id);
+    return () => clearInterval(id); //stop playing
   }, [playing, count]);
 
   const current = data?.frames[idx];

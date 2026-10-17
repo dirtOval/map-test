@@ -10,6 +10,7 @@ export const BUOYS = [
     label: "A01 Massachusetts Bay (2 m)",
     tempVar: "temperature", // degree_Celsius
     qcVar: "temperature_qc_agg", // QARTOD aggregate flag, 1 = PASS
+    //quality control var!!!! cool.
   },
   // { id: "...", label: "...", tempVar: "...", qcVar: "..." },
 ];
