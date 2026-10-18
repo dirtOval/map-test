@@ -11,7 +11,7 @@
 vars_by_institution = [
   {
     'institution': 'Physical Oceanography Group, School of Marine Sciences, University of Maine',
-    'label': 'deployment',
+    'label': 'station',
     'tempVar': 'temperature',
     'qcVar': 'temperature_qc_agg',
     'depth': 'depth',
