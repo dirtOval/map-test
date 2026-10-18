@@ -1,0 +1,20 @@
+
+
+
+RULED OUT PHYSICAL OCEANOGRAPHY ERRORS
+
+https://data.neracoos.org/erddap/tabledap/Empire_adcp.json?station,CTD_WTmp,depth
+skipping Empire_adcp: 400 Client Error: Bad Request for url: https://data.neracoos.org/erddap/tabledap/Empire_adcp.json?station,CTD_WTmp,depth
+https://data.neracoos.org/erddap/tabledap/Empire_ctd.json?station,CTD_WTmp,depth
+skipping Empire_ctd: 400 Client Error: Bad Request for url: https://data.neracoos.org/erddap/tabledap/Empire_ctd.json?station,CTD_WTmp,depth
+
+I WILL DO EMPIRE WIND MANUALLY. INCONSISTENT VARIABLES LMAO
+
+
+https://data.neracoos.org/erddap/tabledap/NDBC_NERRS_GBQN3_WQ.json?platform_id,WTMP
+skipping NDBC_NERRS_GBQN3_WQ: 400 Client Error: Bad Request for url: https://data.neracoos.org/erddap/tabledap/NDBC_NERRS_GBQN3_WQ.json?platform_id,WTMP
+^VARIABLE IS "sea_water_temperature" FOR SOME REASON
+
+https://data.neracoos.org/erddap/tabledap/NDBC_NERRS_NAQR1_WQ.json?platform_id,WTMP
+skipping NDBC_NERRS_NAQR1_WQ: 400 Client Error: Bad Request for url: https://data.neracoos.org/erddap/tabledap/NDBC_NERRS_NAQR1_WQ.json?platform_id,WTMP
+^VARIABLE IS "sea_water_temperature" FOR SOME REASON
