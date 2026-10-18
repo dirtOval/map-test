@@ -16,3 +16,19 @@ del dataset_ids[0] #get rid of allDatasets to avoid recursive sadness
 
 for id in dataset_ids:
   print(id)
+
+tempvar_names = [
+  'temperature',
+  'WATER_TEMPERATURE',
+  'CTD_WTmp',
+  'std_temp',
+  'Temp',
+  'WTMP',
+  'water_temperature',
+  'ZCel_WTmp',
+]
+  #the real problem is inconsistent water temperature variables
+  #how do we solve this? well, one way is to get some common names and run
+  #through th em.
+
+#we want: id, label, tempVar, qcVar, depth

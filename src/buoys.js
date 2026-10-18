@@ -11,6 +11,9 @@ export const BUOYS = [
     tempVar: "temperature", // degree_Celsius
     qcVar: "temperature_qc_agg", // QARTOD aggregate flag, 1 = PASS
     //quality control var!!!! cool.
+    depth: 2 //in meters, if buoys use different measurements switch to string.
   },
   // { id: "...", label: "...", tempVar: "...", qcVar: "..." },
 ];
+
+//we also need to track depth so the visualization is not misleading
