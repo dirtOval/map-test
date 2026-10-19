@@ -7,6 +7,7 @@
 export const BUOYS = [
   {
     id: "A01_ocean_002m", // A01, Massachusetts Bay, 2 m
+    institution:'Physical Oceanography Group, School of Marine Sciences, University of Maine',
     label: "A01 Massachusetts Bay (2 m)",
     tempVar: "temperature", // degree_Celsius
     qcVar: "temperature_qc_agg", // QARTOD aggregate flag, 1 = PASS
