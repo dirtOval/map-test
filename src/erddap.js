@@ -1,6 +1,7 @@
 // Pulls recent buoy temperature from NERACOOS ERDDAP (tabledap) and bins it
 // into animation frames.
-import { BUOYS } from "./buoys";
+// import { BUOYS } from "./buoys";
+import BUOYS from '../buoys.json' with { type: 'json' };
 
 const BASE = import.meta.env.VITE_ERDDAP_BASE ?? "https://data.neracoos.org/erddap";
 //this is here to avoid CORS in development. uses proxy to make requests.
