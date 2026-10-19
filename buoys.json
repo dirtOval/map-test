@@ -1,21 +1,5 @@
 [
   {
-    "id": "A01_waves",
-    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
-    "label": "station",
-    "tempVar": "temperature",
-    "qcVar": "temperature_qc_agg",
-    "depth": "depth"
-  },
-  {
-    "id": "A01_met",
-    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
-    "label": "station",
-    "tempVar": "temperature",
-    "qcVar": "temperature_qc_agg",
-    "depth": "depth"
-  },
-  {
     "id": "A01_ocean_001m",
     "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
     "label": "station",
@@ -80,46 +64,6 @@
     "depth": "depth"
   },
   {
-    "id": "A01_position",
-    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
-    "label": "station",
-    "tempVar": "temperature",
-    "qcVar": "temperature_qc_agg",
-    "depth": "depth"
-  },
-  {
-    "id": "A01_doppler_currents",
-    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
-    "label": "station",
-    "tempVar": "temperature",
-    "qcVar": "temperature_qc_agg",
-    "depth": "depth"
-  },
-  {
-    "id": "A01_surface_currents",
-    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
-    "label": "station",
-    "tempVar": "temperature",
-    "qcVar": "temperature_qc_agg",
-    "depth": "depth"
-  },
-  {
-    "id": "B01_waves",
-    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
-    "label": "station",
-    "tempVar": "temperature",
-    "qcVar": "temperature_qc_agg",
-    "depth": "depth"
-  },
-  {
-    "id": "B01_met",
-    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
-    "label": "station",
-    "tempVar": "temperature",
-    "qcVar": "temperature_qc_agg",
-    "depth": "depth"
-  },
-  {
     "id": "B01_ocean_001m",
     "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
     "label": "station",
@@ -176,50 +120,10 @@
     "depth": "depth"
   },
   {
-    "id": "B01_position",
-    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
-    "label": "station",
-    "tempVar": "temperature",
-    "qcVar": "temperature_qc_agg",
-    "depth": "depth"
-  },
-  {
-    "id": "B01_doppler_currents",
-    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
-    "label": "station",
-    "tempVar": "temperature",
-    "qcVar": "temperature_qc_agg",
-    "depth": "depth"
-  },
-  {
-    "id": "B01_surface_currents",
-    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
-    "label": "station",
-    "tempVar": "temperature",
-    "qcVar": "temperature_qc_agg",
-    "depth": "depth"
-  },
-  {
     "id": "CVOW_temp_wave",
     "institution": "Virginia Electric and Power Company, d/b/a Dominion Energy Virginia",
     "label": "station",
     "tempVar": "WATER_TEMPERATURE"
-  },
-  {
-    "id": "E01_waves",
-    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
-    "label": "station",
-    "tempVar": "temperature",
-    "qcVar": "temperature_qc_agg",
-    "depth": "depth"
-  },
-  {
-    "id": "E01_met",
-    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
-    "label": "station",
-    "tempVar": "temperature",
-    "qcVar": "temperature_qc_agg",
-    "depth": "depth"
   },
   {
     "id": "E01_ocean_001m",
@@ -278,30 +182,6 @@
     "depth": "depth"
   },
   {
-    "id": "E01_position",
-    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
-    "label": "station",
-    "tempVar": "temperature",
-    "qcVar": "temperature_qc_agg",
-    "depth": "depth"
-  },
-  {
-    "id": "E01_doppler_currents",
-    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
-    "label": "station",
-    "tempVar": "temperature",
-    "qcVar": "temperature_qc_agg",
-    "depth": "depth"
-  },
-  {
-    "id": "E01_surface_currents",
-    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
-    "label": "station",
-    "tempVar": "temperature",
-    "qcVar": "temperature_qc_agg",
-    "depth": "depth"
-  },
-  {
     "id": "nefsc_emolt_trawl_temp",
     "institution": "NOAA's Northeast Fisheries Science Center and the Gulf of Maine Lobster Foundation",
     "label": "vessel",
@@ -312,45 +192,14 @@
     "id": "Empire_adcp",
     "institution": "Empire Wind",
     "label": "station",
-    "tempVar": "CTD_WTmp",
+    "tempVar": "ZCel_WTmp",
     "depth": "depth"
   },
   {
     "id": "Empire_ctd",
     "institution": "Empire Wind",
     "label": "station",
-    "tempVar": "CTD_WTmp",
-    "depth": "depth"
-  },
-  {
-    "id": "Empire_met",
-    "institution": "Empire Wind",
-    "label": "station",
-    "tempVar": "CTD_WTmp",
-    "depth": "depth"
-  },
-  {
-    "id": "Empire_wave",
-    "institution": "Empire Wind",
-    "label": "station",
-    "tempVar": "CTD_WTmp",
-    "depth": "depth"
-  },
-  {
-    "id": "F01_waves",
-    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
-    "label": "station",
-    "tempVar": "temperature",
-    "qcVar": "temperature_qc_agg",
-    "depth": "depth"
-  },
-  {
-    "id": "F01_met",
-    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
-    "label": "station",
-    "tempVar": "temperature",
-    "qcVar": "temperature_qc_agg",
-    "depth": "depth"
+    "tempVar": "CTD_WTmp"
   },
   {
     "id": "F01_ocean_001m",
@@ -409,30 +258,6 @@
     "depth": "depth"
   },
   {
-    "id": "F01_position",
-    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
-    "label": "station",
-    "tempVar": "temperature",
-    "qcVar": "temperature_qc_agg",
-    "depth": "depth"
-  },
-  {
-    "id": "F01_doppler_currents",
-    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
-    "label": "station",
-    "tempVar": "temperature",
-    "qcVar": "temperature_qc_agg",
-    "depth": "depth"
-  },
-  {
-    "id": "F01_surface_currents",
-    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
-    "label": "station",
-    "tempVar": "temperature",
-    "qcVar": "temperature_qc_agg",
-    "depth": "depth"
-  },
-  {
     "id": "ONSET_gloucester_hourly_water_level",
     "institution": "Onset Hobolink",
     "label": "Station",
@@ -450,22 +275,7 @@
     "label": "stationID",
     "tempVar": "temperature"
   },
-  {
-    "id": "I01_waves",
-    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
-    "label": "station",
-    "tempVar": "temperature",
-    "qcVar": "temperature_qc_agg",
-    "depth": "depth"
-  },
-  {
-    "id": "I01_met",
-    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
-    "label": "station",
-    "tempVar": "temperature",
-    "qcVar": "temperature_qc_agg",
-    "depth": "depth"
-  },
+  
   {
     "id": "I01_ocean_001m",
     "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
@@ -516,46 +326,6 @@
   },
   {
     "id": "I01_ocean_agg",
-    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
-    "label": "station",
-    "tempVar": "temperature",
-    "qcVar": "temperature_qc_agg",
-    "depth": "depth"
-  },
-  {
-    "id": "I01_position",
-    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
-    "label": "station",
-    "tempVar": "temperature",
-    "qcVar": "temperature_qc_agg",
-    "depth": "depth"
-  },
-  {
-    "id": "I01_doppler_currents",
-    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
-    "label": "station",
-    "tempVar": "temperature",
-    "qcVar": "temperature_qc_agg",
-    "depth": "depth"
-  },
-  {
-    "id": "I01_surface_currents",
-    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
-    "label": "station",
-    "tempVar": "temperature",
-    "qcVar": "temperature_qc_agg",
-    "depth": "depth"
-  },
-  {
-    "id": "M01_waves",
-    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
-    "label": "station",
-    "tempVar": "temperature",
-    "qcVar": "temperature_qc_agg",
-    "depth": "depth"
-  },
-  {
-    "id": "M01_met",
     "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
     "label": "station",
     "tempVar": "temperature",
@@ -651,50 +421,10 @@
     "depth": "depth"
   },
   {
-    "id": "M01_position",
-    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
-    "label": "station",
-    "tempVar": "temperature",
-    "qcVar": "temperature_qc_agg",
-    "depth": "depth"
-  },
-  {
-    "id": "M01_doppler_currents",
-    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
-    "label": "station",
-    "tempVar": "temperature",
-    "qcVar": "temperature_qc_agg",
-    "depth": "depth"
-  },
-  {
-    "id": "M01_surface_currents",
-    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
-    "label": "station",
-    "tempVar": "temperature",
-    "qcVar": "temperature_qc_agg",
-    "depth": "depth"
-  },
-  {
     "id": "MMA_XYLEM_NANTUCKET",
     "institution": "Maria Mitchell Association",
     "label": "station_name",
     "tempVar": "temperature",
-    "depth": "depth"
-  },
-  {
-    "id": "N01_waves",
-    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
-    "label": "station",
-    "tempVar": "temperature",
-    "qcVar": "temperature_qc_agg",
-    "depth": "depth"
-  },
-  {
-    "id": "N01_met",
-    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
-    "label": "station",
-    "tempVar": "temperature",
-    "qcVar": "temperature_qc_agg",
     "depth": "depth"
   },
   {
@@ -739,30 +469,6 @@
   },
   {
     "id": "N01_ocean_agg",
-    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
-    "label": "station",
-    "tempVar": "temperature",
-    "qcVar": "temperature_qc_agg",
-    "depth": "depth"
-  },
-  {
-    "id": "N01_position",
-    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
-    "label": "station",
-    "tempVar": "temperature",
-    "qcVar": "temperature_qc_agg",
-    "depth": "depth"
-  },
-  {
-    "id": "N01_doppler_currents",
-    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
-    "label": "station",
-    "tempVar": "temperature",
-    "qcVar": "temperature_qc_agg",
-    "depth": "depth"
-  },
-  {
-    "id": "N01_surface_currents",
     "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
     "label": "station",
     "tempVar": "temperature",
@@ -947,13 +653,13 @@
     "id": "NDBC_NERRS_GBQN3_WQ",
     "institution": "NOAA NDBC",
     "label": "platform_id",
-    "tempVar": "WTMP"
+    "tempVar": "sea_water_temperature"
   },
   {
     "id": "NDBC_NERRS_NAQR1_WQ",
     "institution": "NOAA NDBC",
     "label": "platform_id",
-    "tempVar": "WTMP"
+    "tempVar": "sea_water_temperature"
   },
   {
     "id": "NDBC_NERRS_NAXR1",
@@ -965,7 +671,7 @@
     "id": "NDBC_NERRS_WAQM3_WQ",
     "institution": "NOAA NDBC",
     "label": "platform_id",
-    "tempVar": "WTMP"
+    "tempVar": "sea_water_temperature"
   },
   {
     "id": "NDBC_NERRS_WAXM3",
@@ -977,13 +683,13 @@
     "id": "NDBC_NERRS_WEBM1_WQ",
     "institution": "NOAA NDBC",
     "label": "platform_id",
-    "tempVar": "WTMP"
+    "tempVar": "sea_water_temperature"
   },
   {
     "id": "NDBC_NERRS_WEQM1_WQ",
     "institution": "NOAA NDBC",
     "label": "platform_id",
-    "tempVar": "WTMP"
+    "tempVar": "sea_water_temperature"
   },
   {
     "id": "NDBC_NERRS_WEXM1",
@@ -1016,49 +722,13 @@
     "tempVar": "WTMP"
   },
   {
-    "id": "ONSET_scituate_hourly_water_level",
-    "institution": "Onset Hobolink",
-    "label": "Station",
-    "tempVar": "Temp"
-  },
-  {
     "id": "SLL-2699",
     "institution": "Stone Living Lab - a partnership between Boston Harbor Now, UMass Boston's School for the Environment, the City of Boston, the Massachusetts Department of Conservation and Recreation, the Massachusetts Executive Office of Energy and Environmental Affairs, the National Park Service, and the James M. and Cathleen D. Stone Foundation",
     "label": "stationID",
     "tempVar": "water_temperature"
   },
   {
-    "id": "SLL-3250",
-    "institution": "Stone Living Lab - a partnership between Boston Harbor Now, UMass Boston's School for the Environment, the City of Boston, the Massachusetts Department of Conservation and Recreation, the Massachusetts Executive Office of Energy and Environmental Affairs, the National Park Service, and the James M. and Cathleen D. Stone Foundation",
-    "label": "stationID",
-    "tempVar": "water_temperature"
-  },
-  {
-    "id": "SLL-3425",
-    "institution": "Stone Living Lab - a partnership between Boston Harbor Now, UMass Boston's School for the Environment, the City of Boston, the Massachusetts Department of Conservation and Recreation, the Massachusetts Executive Office of Energy and Environmental Affairs, the National Park Service, and the James M. and Cathleen D. Stone Foundation",
-    "label": "stationID",
-    "tempVar": "water_temperature"
-  },
-  {
-    "id": "SLL-4958",
-    "institution": "Stone Living Lab - a partnership between Boston Harbor Now, UMass Boston's School for the Environment, the City of Boston, the Massachusetts Department of Conservation and Recreation, the Massachusetts Executive Office of Energy and Environmental Affairs, the National Park Service, and the James M. and Cathleen D. Stone Foundation",
-    "label": "stationID",
-    "tempVar": "water_temperature"
-  },
-  {
-    "id": "SFW01_Current",
-    "institution": "South Fork Wind - a partnership between Orsted and Global Infrastructure Partners",
-    "label": "station",
-    "tempVar": "ZCel_WTmp"
-  },
-  {
     "id": "SFW01_Water",
-    "institution": "South Fork Wind - a partnership between Orsted and Global Infrastructure Partners",
-    "label": "station",
-    "tempVar": "ZCel_WTmp"
-  },
-  {
-    "id": "SFW01_Wave",
     "institution": "South Fork Wind - a partnership between Orsted and Global Infrastructure Partners",
     "label": "station",
     "tempVar": "ZCel_WTmp"
@@ -1114,14 +784,6 @@
     "depth": "depth"
   },
   {
-    "id": "UNH_SPOT_1469",
-    "institution": "Ocean Process Analysis Laboratory - University of New Hampshire",
-    "label": "platform",
-    "tempVar": "temperature",
-    "qcVar": "temperature_QARTOD_agg",
-    "depth": "depth"
-  },
-  {
     "id": "URI_CP_Exo_Bottom",
     "institution": "Graduate School of Oceanography, Marine Ecosystems Research Laboratory, University of Rhode Island",
     "label": "Station",
@@ -1136,32 +798,6 @@
   },
   {
     "id": "URI_CP_Exo_Top",
-    "institution": "Graduate School of Oceanography, Marine Ecosystems Research Laboratory, University of Rhode Island",
-    "label": "Station",
-    "tempVar": "Temp",
-    "qcVar": [
-      "Temp_qartod_gross_range_test",
-      "Temp_qartod_spike_test",
-      "Temp_qartod_flat_line_test",
-      "Temp_qartod_rate_of_change_test"
-    ],
-    "depth": "Depth"
-  },
-  {
-    "id": "URI_GBay_Suna",
-    "institution": "Graduate School of Oceanography, Marine Ecosystems Research Laboratory, University of Rhode Island",
-    "label": "Station",
-    "tempVar": "Temp",
-    "qcVar": [
-      "Temp_qartod_gross_range_test",
-      "Temp_qartod_spike_test",
-      "Temp_qartod_flat_line_test",
-      "Temp_qartod_rate_of_change_test"
-    ],
-    "depth": "Depth"
-  },
-  {
-    "id": "URI_GSO_Dock_Suna",
     "institution": "Graduate School of Oceanography, Marine Ecosystems Research Laboratory, University of Rhode Island",
     "label": "Station",
     "tempVar": "Temp",
