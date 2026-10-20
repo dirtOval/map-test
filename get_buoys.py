@@ -39,7 +39,7 @@ for pair in dataset_ids_by_institution:
   
 # print(output)
 with open('buoys.json', 'w') as f:
-  json.dump(output, f, indent=2)
+  json.dump(output, f)
 
 # #COOL TESTING ZONE BELOW HERE
 #   #don't need institution key value anymore, actually it messes things up
