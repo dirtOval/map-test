@@ -86,4 +86,6 @@ could provide.
 Absolutely not! Depth isn't displayed at all yet (kind of important for
 representing water temperature), and I want to add other data as I can.
 Probably wind next. Also a bunch of buoy requests are still throwing 400 or 404
-errors. Will keep adding stuff as I can, this is basically a buggy demo. :)
+errors. Will keep adding stuff as I can, the deployed version is basically a buggy demo. :)
+
+Speaking of, you can view that version [here!](https://dirtoval.github.io/map-test/)
