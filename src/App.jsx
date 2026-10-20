@@ -2,7 +2,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import * as maplibregl from "maplibre-gl" ;
 import "maplibre-gl/dist/maplibre-gl.css";
 import { fetchBuoy, buildFrames, runPool } from "./erddap";
-import BUOYS from '../buoys.json' with { type: 'json' };
+import BUOYS from './buoys.json' with { type: 'json' };
 import "./App.css";
 
 const SOURCE = "buoys";
