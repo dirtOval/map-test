@@ -5,6 +5,10 @@ import { fetchBuoy, buildFrames, runPool } from "./erddap";
 import BUOYS from './buoys.json' with { type: 'json' };
 import "./App.css";
 
+//needed for deployment i believe so maplibre worker can be found.
+import workerUrl from 'maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url';
+maplibregl.setWorkerUrl(workerUrl)
+
 const SOURCE = "buoys";
 const MAX_CONCURRENT = 4; // simultaneous ERDDAP requests
 const COLORS = ["#2c3e8f", "#2f7fb8", "#5cc2b5", "#f2e394", "#f29e4c", "#c8352b"];
