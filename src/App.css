@@ -49,3 +49,5 @@ html, body, #root { margin: 0; height: 100%; }
 }
 
 .error { color: #ff9b8f; font-size: 13px; margin: 0 0 10px; }
+
+.status { color: var(--muted); font-size: 13px; margin: 0 0 10px; }

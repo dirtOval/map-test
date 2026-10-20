@@ -1,23 +1,13 @@
-import { useEffect, useRef, useState } from "react";
-
+import { useEffect, useMemo, useRef, useState } from "react";
 import * as maplibregl from "maplibre-gl" ;
 import "maplibre-gl/dist/maplibre-gl.css";
-//^ need this stylesheet to use maplibre-gl. map will break otherwise.
-
-import { fetchFrames } from "./erddap";
+import { fetchBuoy, buildFrames, runPool } from "./erddap";
+import BUOYS from '../buoys.json' with { type: 'json' };
 import "./App.css";
 
 const SOURCE = "buoys";
-//what is the purpose of this, claude?
-//i'm guessing it's a variable in case i want to change the name later
-//if i incorporate more data sources that are not buoys.
-
-const COLORS = ["#2c3e8f",
-                "#2f7fb8",
-                "#5cc2b5",
-                "#f2e394",
-                "#f29e4c",
-                "#c8352b"];
+const MAX_CONCURRENT = 4; // simultaneous ERDDAP requests
+const COLORS = ["#2c3e8f", "#2f7fb8", "#5cc2b5", "#f2e394", "#f29e4c", "#c8352b"];
 
 // Evenly spaced stops across the observed range, so a color means the same
 // temperature in every frame.
@@ -39,10 +29,15 @@ export default function App() {
   const mapEl = useRef(null);
   const mapRef = useRef(null);
   const [mapReady, setMapReady] = useState(false);
-  const [data, setData] = useState(null); // { frames, range, warnings }
+  const [obs, setObs] = useState([]); // observations from every buoy loaded so far
+  const [settled, setSettled] = useState(0); // buoys finished (success or failure)
+  const [failures, setFailures] = useState([]);
   const [idx, setIdx] = useState(0);
   const [playing, setPlaying] = useState(false);
-  const [error, setError] = useState(null);
+  const userMoved = useRef(false);
+
+  const loading = settled < BUOYS.length;
+  const data = useMemo(() => (obs.length ? buildFrames(obs, 3) : null), [obs]);
 
   // 1. Create the map once.
   useEffect(() => {
@@ -53,7 +48,7 @@ export default function App() {
       zoom: 5.5,
     });
     map.addControl(new maplibregl.NavigationControl({ showCompass: false }));
-    //^zoom buttons.
+
     map.on("load", () => {
       map.addSource(SOURCE, {
         type: "geojson",
@@ -64,12 +59,14 @@ export default function App() {
         type: "circle",
         source: SOURCE,
         paint: {
-          "circle-radius": ["interpolate", ["linear"], ["zoom"], 4, 7, 9, 16],
+          "circle-radius": ["interpolate", ["linear"], ["zoom"], 4, 5, 9, 12],
+          // "circle-radius": 5,
           "circle-color": "#888",
           "circle-stroke-color": "#ffffff",
           "circle-stroke-width": 1.5,
         },
       });
+
       map.on("click", "buoy-points", (e) => {
         const f = e.features[0];
         const { t, label, depth } = f.properties;
@@ -80,34 +77,55 @@ export default function App() {
       });
       map.on("mouseenter", "buoy-points", () => (map.getCanvas().style.cursor = "pointer"));
       map.on("mouseleave", "buoy-points", () => (map.getCanvas().style.cursor = ""));
-      //^manage behavior + appearance of buoy points here.
 
       setMapReady(true);
+    });
+
+    // Stop auto-fitting once the user pans or zooms (originalEvent is set only for user input).
+    map.on("movestart", (e) => {
+      if (e.originalEvent) userMoved.current = true;
     });
 
     mapRef.current = map;
     return () => map.remove();
   }, []);
 
-  // 2. Load buoy data once.
+  // 2. Load every buoy independently; each result is merged in as soon as it arrives.
   useEffect(() => {
-    fetchFrames({ days: 7, stepHours: 3 }).then(setData).catch((e) => setError(e.message));
+    const ctrl = new AbortController();
+    runPool(
+      BUOYS,
+      MAX_CONCURRENT,
+      (buoy) =>
+        fetchBuoy(buoy, 7, ctrl.signal)
+          .then((rows) => setObs((prev) => [...prev, ...rows]))
+          .catch((e) => {
+            if (e.name !== "AbortError") setFailures((f) => [...f, e.message]);
+          })
+          .finally(() => {
+            if (!ctrl.signal.aborted) setSettled((n) => n + 1);
+          }),
+      ctrl.signal
+    );
+    return () => ctrl.abort();
   }, []);
 
-  // 3. When both are ready: set the color ramp and fit the map to the buoys.
+  // 3a. Update the color ramp whenever the observed range changes.
   useEffect(() => {
     if (!mapReady || !data) return;
-    const map = mapRef.current;
-    map.setPaintProperty("buoy-points", "circle-color",
-      [
+    mapRef.current.setPaintProperty("buoy-points", "circle-color", [
       "interpolate", ["linear"], ["get", "t"], ...rampFor(data.range),
     ]);
+  }, [mapReady, data]);
 
+  // 3b. Fit the map to the buoys, until the user takes over the camera.
+  useEffect(() => {
+    if (!mapReady || !data || userMoved.current) return;
     const bounds = new maplibregl.LngLatBounds();
     data.frames.forEach((f) =>
       f.geojson.features.forEach((ft) => bounds.extend(ft.geometry.coordinates))
     );
-    if (!bounds.isEmpty()) map.fitBounds(bounds, { padding: 80, maxZoom: 8, duration: 0 });
+    if (!bounds.isEmpty()) mapRef.current.fitBounds(bounds, { padding: 80, maxZoom: 8, duration: 0 });
   }, [mapReady, data]);
 
   // 4. Push the current frame into the map source.
@@ -117,14 +135,15 @@ export default function App() {
   }, [mapReady, data, idx]);
 
   // 5. Playback.
-  const count = data?.frames.length ?? 0; //0 instead of undefined, prevents breaking.
+  const count = data?.frames.length ?? 0;
   useEffect(() => {
     if (!playing || count === 0) return;
     const id = setInterval(() => setIdx((i) => (i + 1) % count), 400);
-    return () => clearInterval(id); //stop playing
+    return () => clearInterval(id);
   }, [playing, count]);
 
   const current = data?.frames[idx];
+  const noData = !loading && !data;
 
   return (
     <div className="app">
@@ -133,12 +152,17 @@ export default function App() {
       <div className="panel">
         <div className="readout">
           <strong>Buoy water temperature</strong>
-          <span>{current ? fmtTime(current.time) : error ? "" : "Loading…"}</span>
+          <span>{current ? fmtTime(current.time) : loading ? "Loading…" : ""}</span>
         </div>
 
-        {error && <p className="error">Couldn't load buoy data: {error}</p>}
-        {data?.warnings.length > 0 && (
-          <p className="error">Some buoys failed: {data.warnings.join("; ")}</p>
+        {loading && (
+          <p className="status">
+            Loaded {settled} of {BUOYS.length} buoys…
+          </p>
+        )}
+        {noData && <p className="error">No buoy data returned.</p>}
+        {failures.length > 0 && (
+          <p className="error">{failures.length} buoy request(s) failed: {failures.join("; ")}</p>
         )}
 
         <div className="controls">
