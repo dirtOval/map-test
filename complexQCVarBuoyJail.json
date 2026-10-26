@@ -1,0 +1,145 @@
+[
+  {
+    "id": "URI_CP_Exo_Bottom",
+    "institution": "Graduate School of Oceanography, Marine Ecosystems Research Laboratory, University of Rhode Island",
+    "label": "Station",
+    "tempVar": "Temp",
+    "qcVar": [
+      "Temp_qartod_gross_range_test",
+      "Temp_qartod_spike_test",
+      "Temp_qartod_flat_line_test",
+      "Temp_qartod_rate_of_change_test"
+    ],
+    "depth": "Depth"
+  },
+  {
+    "id": "URI_CP_Exo_Top",
+    "institution": "Graduate School of Oceanography, Marine Ecosystems Research Laboratory, University of Rhode Island",
+    "label": "Station",
+    "tempVar": "Temp",
+    "qcVar": [
+      "Temp_qartod_gross_range_test",
+      "Temp_qartod_spike_test",
+      "Temp_qartod_flat_line_test",
+      "Temp_qartod_rate_of_change_test"
+    ],
+    "depth": "Depth"
+  },
+  {
+    "id": "URI_GSO_Dock_Exo_Top",
+    "institution": "Graduate School of Oceanography, Marine Ecosystems Research Laboratory, University of Rhode Island",
+    "label": "Station",
+    "tempVar": "Temp",
+    "qcVar": [
+      "Temp_qartod_gross_range_test",
+      "Temp_qartod_spike_test",
+      "Temp_qartod_flat_line_test",
+      "Temp_qartod_rate_of_change_test"
+    ],
+    "depth": "Depth"
+  },
+  {
+    "id": "URI_MV_Exo_Bottom",
+    "institution": "Graduate School of Oceanography, Marine Ecosystems Research Laboratory, University of Rhode Island",
+    "label": "Station",
+    "tempVar": "Temp",
+    "qcVar": [
+      "Temp_qartod_gross_range_test",
+      "Temp_qartod_spike_test",
+      "Temp_qartod_flat_line_test",
+      "Temp_qartod_rate_of_change_test"
+    ],
+    "depth": "Depth"
+  },
+  {
+    "id": "URI_MV_Exo_Top",
+    "institution": "Graduate School of Oceanography, Marine Ecosystems Research Laboratory, University of Rhode Island",
+    "label": "Station",
+    "tempVar": "Temp",
+    "qcVar": [
+      "Temp_qartod_gross_range_test",
+      "Temp_qartod_spike_test",
+      "Temp_qartod_flat_line_test",
+      "Temp_qartod_rate_of_change_test"
+    ],
+    "depth": "Depth"
+  },
+  {
+    "id": "URI_NP_Exo_Bottom",
+    "institution": "Graduate School of Oceanography, Marine Ecosystems Research Laboratory, University of Rhode Island",
+    "label": "Station",
+    "tempVar": "Temp",
+    "qcVar": [
+      "Temp_qartod_gross_range_test",
+      "Temp_qartod_spike_test",
+      "Temp_qartod_flat_line_test",
+      "Temp_qartod_rate_of_change_test"
+    ],
+    "depth": "Depth"
+  },
+  {
+    "id": "URI_NP_Exo_Top",
+    "institution": "Graduate School of Oceanography, Marine Ecosystems Research Laboratory, University of Rhode Island",
+    "label": "Station",
+    "tempVar": "Temp",
+    "qcVar": [
+      "Temp_qartod_gross_range_test",
+      "Temp_qartod_spike_test",
+      "Temp_qartod_flat_line_test",
+      "Temp_qartod_rate_of_change_test"
+    ],
+    "depth": "Depth"
+  },
+  {
+    "id": "URI_PP_Exo_Bottom",
+    "institution": "Graduate School of Oceanography, Marine Ecosystems Research Laboratory, University of Rhode Island",
+    "label": "Station",
+    "tempVar": "Temp",
+    "qcVar": [
+      "Temp_qartod_gross_range_test",
+      "Temp_qartod_spike_test",
+      "Temp_qartod_flat_line_test",
+      "Temp_qartod_rate_of_change_test"
+    ],
+    "depth": "Depth"
+  },
+  {
+    "id": "URI_PP_Exo_Top",
+    "institution": "Graduate School of Oceanography, Marine Ecosystems Research Laboratory, University of Rhode Island",
+    "label": "Station",
+    "tempVar": "Temp",
+    "qcVar": [
+      "Temp_qartod_gross_range_test",
+      "Temp_qartod_spike_test",
+      "Temp_qartod_flat_line_test",
+      "Temp_qartod_rate_of_change_test"
+    ],
+    "depth": "Depth"
+  },
+  {
+    "id": "URI_QP_Exo_Bottom",
+    "institution": "Graduate School of Oceanography, Marine Ecosystems Research Laboratory, University of Rhode Island",
+    "label": "Station",
+    "tempVar": "Temp",
+    "qcVar": [
+      "Temp_qartod_gross_range_test",
+      "Temp_qartod_spike_test",
+      "Temp_qartod_flat_line_test",
+      "Temp_qartod_rate_of_change_test"
+    ],
+    "depth": "Depth"
+  },
+  {
+    "id": "URI_QP_Exo_Top",
+    "institution": "Graduate School of Oceanography, Marine Ecosystems Research Laboratory, University of Rhode Island",
+    "label": "Station",
+    "tempVar": "Temp",
+    "qcVar": [
+      "Temp_qartod_gross_range_test",
+      "Temp_qartod_spike_test",
+      "Temp_qartod_flat_line_test",
+      "Temp_qartod_rate_of_change_test"
+    ],
+    "depth": "Depth"
+  }
+]

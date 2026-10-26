@@ -9,6 +9,8 @@ export async function fetchBuoy(buoy, days = 7, signal) {
   // if (buoy.depth) cols.push(buoy.depth)
 
   //fix this later?
+  //specifically, the URI buoys have no single qcVar for temperature, and only a 4 - 9 var for overall qartod aggregate.
+  //so i put them in complexQCVarBuoyJail.json for now. will retrieve later when i make a more robust system to deal with em.
   if (buoy.qcVar) constraints.push(`${buoy.qcVar}=1`);
 
   const url =
