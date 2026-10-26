@@ -1,849 +1,792 @@
 [
-{
-  "id": "A01_ocean_001m",
-  "label": "station",
-  "tempVar": "temperature",
-  "qcVar": "temperature_qc_agg",
-  "depth": "depth"
-},
-{
-  "id": "A01_ocean_010m",
-  "label": "station",
-  "tempVar": "temperature",
-  "qcVar": "temperature_qc_agg",
-  "depth": "depth"
-},
-{
-  "id": "A01_ocean_002m",
-  "label": "station",
-  "tempVar": "temperature",
-  "qcVar": "temperature_qc_agg",
-  "depth": "depth"
-},
-{
-  "id": "A01_ocean_020m",
-  "label": "station",
-  "tempVar": "temperature",
-  "qcVar": "temperature_qc_agg",
-  "depth": "depth"
-},
-{
-  "id": "A01_ocean_003m",
-  "label": "station",
-  "tempVar": "temperature",
-  "qcVar": "temperature_qc_agg",
-  "depth": "depth"
-},
-{
-  "id": "A01_ocean_050m",
-  "label": "station",
-  "tempVar": "temperature",
-  "qcVar": "temperature_qc_agg",
-  "depth": "depth"
-},
-{
-  "id": "A01_ocean_051m",
-  "label": "station",
-  "tempVar": "temperature",
-  "qcVar": "temperature_qc_agg",
-  "depth": "depth"
-},
-{
-  "id": "A01_ocean_agg",
-  "label": "station",
-  "tempVar": "temperature",
-  "qcVar": "temperature_qc_agg",
-  "depth": "depth"
-},
-{
-  "id": "B01_ocean_001m",
-  "label": "station",
-  "tempVar": "temperature",
-  "qcVar": "temperature_qc_agg",
-  "depth": "depth"
-},
-{
-  "id": "B01_ocean_010m",
-  "label": "station",
-  "tempVar": "temperature",
-  "qcVar": "temperature_qc_agg",
-  "depth": "depth"
-},
-{
-  "id": "B01_ocean_002m",
-  "label": "station",
-  "tempVar": "temperature",
-  "qcVar": "temperature_qc_agg",
-  "depth": "depth"
-},
-{
-  "id": "B01_ocean_020m",
-  "label": "station",
-  "tempVar": "temperature",
-  "qcVar": "temperature_qc_agg",
-  "depth": "depth"
-},
-{
-  "id": "B01_ocean_003m",
-  "label": "station",
-  "tempVar": "temperature",
-  "qcVar": "temperature_qc_agg",
-  "depth": "depth"
-},
-{
-  "id": "B01_ocean_050m",
-  "label": "station",
-  "tempVar": "temperature",
-  "qcVar": "temperature_qc_agg",
-  "depth": "depth"
-},
-{
-  "id": "B01_ocean_agg",
-  "label": "station",
-  "tempVar": "temperature",
-  "qcVar": "temperature_qc_agg",
-  "depth": "depth"
-},
-{
-  "id": "CVOW_temp_wave",
-  "label": "station",
-  "tempVar": "WATER_TEMPERATURE"
-},
-{
-  "id": "E01_ocean_001m",
-  "label": "station",
-  "tempVar": "temperature",
-  "qcVar": "temperature_qc_agg",
-  "depth": "depth"
-},
-{
-  "id": "E01_ocean_010m",
-  "label": "station",
-  "tempVar": "temperature",
-  "qcVar": "temperature_qc_agg",
-  "depth": "depth"
-},
-{
-  "id": "E01_ocean_002m",
-  "label": "station",
-  "tempVar": "temperature",
-  "qcVar": "temperature_qc_agg",
-  "depth": "depth"
-},
-{
-  "id": "E01_ocean_020m",
-  "label": "station",
-  "tempVar": "temperature",
-  "qcVar": "temperature_qc_agg",
-  "depth": "depth"
-},
-{
-  "id": "E01_ocean_003m",
-  "label": "station",
-  "tempVar": "temperature",
-  "qcVar": "temperature_qc_agg",
-  "depth": "depth"
-},
-{
-  "id": "E01_ocean_050m",
-  "label": "station",
-  "tempVar": "temperature",
-  "qcVar": "temperature_qc_agg",
-  "depth": "depth"
-},
-{
-  "id": "E01_ocean_agg",
-  "label": "station",
-  "tempVar": "temperature",
-  "qcVar": "temperature_qc_agg",
-  "depth": "depth"
-},
-{
-  "id": "nefsc_emolt_trawl_temp",
-  "label": "vessel",
-  "tempVar": "mean_temp",
-  "depth": "depth"
-},
-{
-  "id": "Empire_adcp",
-  "label": "station",
-  "tempVar": "ZCel_WTmp",
-  "depth": "depth"
-},
-{
-  "id": "Empire_ctd",
-  "label": "station",
-  "tempVar": "CTD_WTmp"
-},
-{
-  "id": "F01_ocean_001m",
-  "label": "station",
-  "tempVar": "temperature",
-  "qcVar": "temperature_qc_agg",
-  "depth": "depth"
-},
-{
-  "id": "F01_ocean_010m",
-  "label": "station",
-  "tempVar": "temperature",
-  "qcVar": "temperature_qc_agg",
-  "depth": "depth"
-},
-{
-  "id": "F01_ocean_002m",
-  "label": "station",
-  "tempVar": "temperature",
-  "qcVar": "temperature_qc_agg",
-  "depth": "depth"
-},
-{
-  "id": "F01_ocean_020m",
-  "label": "station",
-  "tempVar": "temperature",
-  "qcVar": "temperature_qc_agg",
-  "depth": "depth"
-},
-{
-  "id": "F01_ocean_003m",
-  "label": "station",
-  "tempVar": "temperature",
-  "qcVar": "temperature_qc_agg",
-  "depth": "depth"
-},
-{
-  "id": "F01_ocean_050m",
-  "label": "station",
-  "tempVar": "temperature",
-  "qcVar": "temperature_qc_agg",
-  "depth": "depth"
-},
-{
-  "id": "F01_ocean_agg",
-  "label": "station",
-  "tempVar": "temperature",
-  "qcVar": "temperature_qc_agg",
-  "depth": "depth"
-},
-{
-  "id": "ONSET_gloucester_hourly_water_level",
-  "label": "Station",
-  "tempVar": "Temp"
-},
-{
-  "id": "ONSET_hamptonbay_hourly_water_level",
-  "label": "Station",
-  "tempVar": "Temp"
-},
-{
-  "id": "HI_SPOT_32995C",
-  "label": "stationID",
-  "tempVar": "temperature"
-},
-
-{
-  "id": "I01_ocean_001m",
-  "label": "station",
-  "tempVar": "temperature",
-  "qcVar": "temperature_qc_agg",
-  "depth": "depth"
-},
-{
-  "id": "I01_ocean_010m",
-  "label": "station",
-  "tempVar": "temperature",
-  "qcVar": "temperature_qc_agg",
-  "depth": "depth"
-},
-{
-  "id": "I01_ocean_002m",
-  "label": "station",
-  "tempVar": "temperature",
-  "qcVar": "temperature_qc_agg",
-  "depth": "depth"
-},
-{
-  "id": "I01_ocean_020m",
-  "label": "station",
-  "tempVar": "temperature",
-  "qcVar": "temperature_qc_agg",
-  "depth": "depth"
-},
-{
-  "id": "I01_ocean_003m",
-  "label": "station",
-  "tempVar": "temperature",
-  "qcVar": "temperature_qc_agg",
-  "depth": "depth"
-},
-{
-  "id": "I01_ocean_050m",
-  "label": "station",
-  "tempVar": "temperature",
-  "qcVar": "temperature_qc_agg",
-  "depth": "depth"
-},
-{
-  "id": "I01_ocean_agg",
-  "label": "station",
-  "tempVar": "temperature",
-  "qcVar": "temperature_qc_agg",
-  "depth": "depth"
-},
-{
-  "id": "M01_ocean_001m",
-  "label": "station",
-  "tempVar": "temperature",
-  "qcVar": "temperature_qc_agg",
-  "depth": "depth"
-},
-{
-  "id": "M01_ocean_010m",
-  "label": "station",
-  "tempVar": "temperature",
-  "qcVar": "temperature_qc_agg",
-  "depth": "depth"
-},
-{
-  "id": "M01_ocean_100m",
-  "label": "station",
-  "tempVar": "temperature",
-  "qcVar": "temperature_qc_agg",
-  "depth": "depth"
-},
-{
-  "id": "M01_ocean_150m",
-  "label": "station",
-  "tempVar": "temperature",
-  "qcVar": "temperature_qc_agg",
-  "depth": "depth"
-},
-{
-  "id": "M01_ocean_002m",
-  "label": "station",
-  "tempVar": "temperature",
-  "qcVar": "temperature_qc_agg",
-  "depth": "depth"
-},
-{
-  "id": "M01_ocean_020m",
-  "label": "station",
-  "tempVar": "temperature",
-  "qcVar": "temperature_qc_agg",
-  "depth": "depth"
-},
-{
-  "id": "M01_ocean_200m",
-  "label": "station",
-  "tempVar": "temperature",
-  "qcVar": "temperature_qc_agg",
-  "depth": "depth"
-},
-{
-  "id": "M01_ocean_250m",
-  "label": "station",
-  "tempVar": "temperature",
-  "qcVar": "temperature_qc_agg",
-  "depth": "depth"
-},
-{
-  "id": "M01_ocean_003m",
-  "label": "station",
-  "tempVar": "temperature",
-  "qcVar": "temperature_qc_agg",
-  "depth": "depth"
-},
-{
-  "id": "M01_ocean_050m",
-  "label": "station",
-  "tempVar": "temperature",
-  "qcVar": "temperature_qc_agg",
-  "depth": "depth"
-},
-{
-  "id": "M01_ocean_agg",
-  "label": "station",
-  "tempVar": "temperature",
-  "qcVar": "temperature_qc_agg",
-  "depth": "depth"
-},
-{
-  "id": "MMA_XYLEM_NANTUCKET",
-  "label": "station_name",
-  "tempVar": "temperature",
-  "depth": "depth"
-},
-{
-  "id": "N01_ocean_001m",
-  "label": "station",
-  "tempVar": "temperature",
-  "qcVar": "temperature_qc_agg",
-  "depth": "depth"
-},
-{
-  "id": "N01_ocean_002m",
-  "label": "station",
-  "tempVar": "temperature",
-  "qcVar": "temperature_qc_agg",
-  "depth": "depth"
-},
-{
-  "id": "N01_ocean_020m",
-  "label": "station",
-  "tempVar": "temperature",
-  "qcVar": "temperature_qc_agg",
-  "depth": "depth"
-},
-{
-  "id": "N01_ocean_003m",
-  "label": "station",
-  "tempVar": "temperature",
-  "qcVar": "temperature_qc_agg",
-  "depth": "depth"
-},
-{
-  "id": "N01_ocean_050m",
-  "label": "station",
-  "tempVar": "temperature",
-  "qcVar": "temperature_qc_agg",
-  "depth": "depth"
-},
-{
-  "id": "N01_ocean_agg",
-  "label": "station",
-  "tempVar": "temperature",
-  "qcVar": "temperature_qc_agg",
-  "depth": "depth"
-},
-{
-  "id": "NDBC_44005",
-  "label": "platform_id",
-  "tempVar": "WTMP"
-},
-{
-  "id": "NDBC_44007",
-  "label": "platform_id",
-  "tempVar": "WTMP"
-},
-{
-  "id": "NDBC_44008",
-  "label": "platform_id",
-  "tempVar": "WTMP"
-},
-{
-  "id": "NDBC_44011",
-  "label": "platform_id",
-  "tempVar": "WTMP"
-},
-{
-  "id": "NDBC_44013",
-  "label": "platform_id",
-  "tempVar": "WTMP"
-},
-{
-  "id": "NDBC_44018",
-  "label": "platform_id",
-  "tempVar": "WTMP"
-},
-{
-  "id": "NDBC_44020",
-  "label": "platform_id",
-  "tempVar": "WTMP"
-},
-{
-  "id": "NDBC_44025",
-  "label": "platform_id",
-  "tempVar": "WTMP"
-},
-{
-  "id": "NDBC_44027",
-  "label": "platform_id",
-  "tempVar": "WTMP"
-},
-{
-  "id": "NDBC_44065",
-  "label": "platform_id",
-  "tempVar": "WTMP"
-},
-{
-  "id": "NDBC_44069",
-  "label": "platform_id",
-  "tempVar": "WTMP"
-},
-{
-  "id": "NDBC_44090",
-  "label": "platform_id",
-  "tempVar": "WTMP"
-},
-{
-  "id": "NDBC_BLTM3",
-  "label": "platform_id",
-  "tempVar": "WTMP"
-},
-{
-  "id": "NDBC_BZBM3",
-  "label": "platform_id",
-  "tempVar": "WTMP"
-},
-{
-  "id": "NDBC_C-MAN_BUZM3",
-  "label": "platform_id",
-  "tempVar": "WTMP"
-},
-{
-  "id": "NDBC_C-MAN_DBLN6",
-  "label": "platform_id",
-  "tempVar": "WTMP"
-},
-{
-  "id": "NDBC_C-MAN_IOSN3",
-  "label": "platform_id",
-  "tempVar": "WTMP"
-},
-{
-  "id": "NDBC_C-MAN_MDRM1",
-  "label": "platform_id",
-  "tempVar": "WTMP"
-},
-{
-  "id": "NDBC_C-MAN_MISM1",
-  "label": "platform_id",
-  "tempVar": "WTMP"
-},
-{
-  "id": "NDBC_CASM1",
-  "label": "platform_id",
-  "tempVar": "WTMP"
-},
-{
-  "id": "NDBC_CFWM1",
-  "label": "platform_id",
-  "tempVar": "WTMP"
-},
-{
-  "id": "NDBC_CHTM3",
-  "label": "platform_id",
-  "tempVar": "WTMP"
-},
-{
-  "id": "NDBC_CPTR1",
-  "label": "platform_id",
-  "tempVar": "WTMP"
-},
-{
-  "id": "NDBC_FOXR1",
-  "label": "platform_id",
-  "tempVar": "WTMP"
-},
-{
-  "id": "NDBC_FRVM3",
-  "label": "platform_id",
-  "tempVar": "WTMP"
-},
-{
-  "id": "NDBC_KPTN6",
-  "label": "platform_id",
-  "tempVar": "WTMP"
-},
-{
-  "id": "NDBC_MTKN6",
-  "label": "platform_id",
-  "tempVar": "WTMP"
-},
-{
-  "id": "NDBC_NBGM3",
-  "label": "platform_id",
-  "tempVar": "WTMP"
-},
-{
-  "id": "NDBC_NERRS_BGXN3",
-  "label": "platform_id",
-  "tempVar": "WTMP"
-},
-{
-  "id": "NDBC_NERRS_GBQN3_WQ",
-  "label": "platform_id",
-  "tempVar": "sea_water_temperature"
-},
-{
-  "id": "NDBC_NERRS_NAQR1_WQ",
-  "label": "platform_id",
-  "tempVar": "sea_water_temperature"
-},
-{
-  "id": "NDBC_NERRS_NAXR1",
-  "label": "platform_id",
-  "tempVar": "WTMP"
-},
-{
-  "id": "NDBC_NERRS_WAQM3_WQ",
-  "label": "platform_id",
-  "tempVar": "sea_water_temperature"
-},
-{
-  "id": "NDBC_NERRS_WAXM3",
-  "label": "platform_id",
-  "tempVar": "WTMP"
-},
-{
-  "id": "NDBC_NERRS_WEBM1_WQ",
-  "label": "platform_id",
-  "tempVar": "WTMP"
-},
-{
-  "id": "NDBC_NERRS_WEQM1_WQ",
-  "label": "platform_id",
-  "tempVar": "WTMP"
-},
-{
-  "id": "NDBC_NERRS_WEXM1",
-  "label": "platform_id",
-  "tempVar": "WTMP"
-},
-{
-  "id": "NDBC_NWHC3",
-  "label": "platform_id",
-  "tempVar": "WTMP"
-},
-{
-  "id": "NDBC_PDVR1",
-  "label": "platform_id",
-  "tempVar": "WTMP"
-},
-{
-  "id": "NDBC_QPTR1",
-  "label": "platform_id",
-  "tempVar": "WTMP"
-},
-{
-  "id": "NDBC_SEIM1",
-  "label": "platform_id",
-  "tempVar": "WTMP"
-},
-{
-  "id": "ONSET_scituate_hourly_water_level",
-  "label": "Station",
-  "tempVar": "Temp"
-},
-{
-  "id": "SLL-2699",
-  "label": "stationID",
-  "tempVar": "water_temperature"
-},
-{
-  "id": "SLL-3250",
-  "label": "stationID",
-  "tempVar": "water_temperature"
-},
-{
-  "id": "SLL-3425",
-  "label": "stationID",
-  "tempVar": "water_temperature"
-},
-{
-  "id": "SLL-4958",
-  "label": "stationID",
-  "tempVar": "water_temperature"
-},
-{
-  "id": "SFW01_Current",
-  "label": "station",
-  "tempVar": "ZCel_WTmp"
-},
-{
-  "id": "SFW01_Water",
-  "label": "station",
-  "tempVar": "ZCel_WTmp"
-},
-{
-  "id": "SFW01_Wave",
-  "label": "station",
-  "tempVar": "ZCel_WTmp"
-},
-{
-  "id": "UMaine_SPOT_0755",
-  "label": "stationID",
-  "tempVar": "temperature"
-},
-{
-  "id": "UNE_SPOT_32787C",
-  "label": "stationID",
-  "tempVar": "temperature"
-},
-{
-  "id": "UNE_SPOT_32905C",
-  "label": "stationID",
-  "tempVar": "temperature"
-},
-{
-  "id": "UNH_WBD",
-  "label": "platform",
-  "tempVar": "temperature",
-  "qcVar": "temperature_QARTOD_agg",
-  "depth": "depth"
-},
-{
-  "id": "UNH_CML",
-  "label": "platform",
-  "tempVar": "temperature",
-  "qcVar": "temperature_QARTOD_agg",
-  "depth": "depth"
-},
-{
-  "id": "UNH_GBB",
-  "label": "platform",
-  "tempVar": "temperature",
-  "qcVar": "temperature_QARTOD_agg",
-  "depth": "depth"
-},
-{
-  "id": "UNH_JEL",
-  "label": "platform",
-  "tempVar": "temperature",
-  "qcVar": "temperature_QARTOD_agg",
-  "depth": "depth"
-},
-{
-  "id": "UNH_SPOT_1469",
-  "label": "platform",
-  "tempVar": "temperature",
-  "qcVar": "temperature_QARTOD_agg",
-  "depth": "depth"
-},
-{
-  "id": "URI_CP_Exo_Bottom",
-  "label": "Station",
-  "tempVar": "Temp",
-  "qcVar": [
-    "Temp_qartod_gross_range_test",
-    "Temp_qartod_spike_test",
-    "Temp_qartod_flat_line_test",
-    "Temp_qartod_rate_of_change_test"
-  ],
-  "depth": "Depth"
-},
-{
-  "id": "URI_CP_Exo_Top",
-  "label": "Station",
-  "tempVar": "Temp",
-  "qcVar": [
-    "Temp_qartod_gross_range_test",
-    "Temp_qartod_spike_test",
-    "Temp_qartod_flat_line_test",
-    "Temp_qartod_rate_of_change_test"
-  ],
-  "depth": "Depth"
-},
-{
-  "id": "URI_GSO_Dock_Exo_Top",
-  "label": "Station",
-  "tempVar": "Temp",
-  "qcVar": [
-    "Temp_qartod_gross_range_test",
-    "Temp_qartod_spike_test",
-    "Temp_qartod_flat_line_test",
-    "Temp_qartod_rate_of_change_test"
-  ],
-  "depth": "Depth"
-},
-{
-  "id": "URI_MV_Exo_Bottom",
-  "label": "Station",
-  "tempVar": "Temp",
-  "qcVar": [
-    "Temp_qartod_gross_range_test",
-    "Temp_qartod_spike_test",
-    "Temp_qartod_flat_line_test",
-    "Temp_qartod_rate_of_change_test"
-  ],
-  "depth": "Depth"
-},
-{
-  "id": "URI_MV_Exo_Top",
-  "label": "Station",
-  "tempVar": "Temp",
-  "qcVar": [
-    "Temp_qartod_gross_range_test",
-    "Temp_qartod_spike_test",
-    "Temp_qartod_flat_line_test",
-    "Temp_qartod_rate_of_change_test"
-  ],
-  "depth": "Depth"
-},
-{
-  "id": "URI_NP_Exo_Bottom",
-  "label": "Station",
-  "tempVar": "Temp",
-  "qcVar": [
-    "Temp_qartod_gross_range_test",
-    "Temp_qartod_spike_test",
-    "Temp_qartod_flat_line_test",
-    "Temp_qartod_rate_of_change_test"
-  ],
-  "depth": "Depth"
-},
-{
-  "id": "URI_NP_Exo_Top",
-  "label": "Station",
-  "tempVar": "Temp",
-  "qcVar": [
-    "Temp_qartod_gross_range_test",
-    "Temp_qartod_spike_test",
-    "Temp_qartod_flat_line_test",
-    "Temp_qartod_rate_of_change_test"
-  ],
-  "depth": "Depth"
-},
-{
-  "id": "URI_PP_Exo_Bottom",
-  "label": "Station",
-  "tempVar": "Temp",
-  "qcVar": [
-    "Temp_qartod_gross_range_test",
-    "Temp_qartod_spike_test",
-    "Temp_qartod_flat_line_test",
-    "Temp_qartod_rate_of_change_test"
-  ],
-  "depth": "Depth"
-},
-{
-  "id": "URI_PP_Exo_Top",
-  "label": "Station",
-  "tempVar": "Temp",
-  "qcVar": [
-    "Temp_qartod_gross_range_test",
-    "Temp_qartod_spike_test",
-    "Temp_qartod_flat_line_test",
-    "Temp_qartod_rate_of_change_test"
-  ],
-  "depth": "Depth"
-},
-{
-  "id": "URI_QP_Exo_Bottom",
-  "label": "Station",
-  "tempVar": "Temp",
-  "qcVar": [
-    "Temp_qartod_gross_range_test",
-    "Temp_qartod_spike_test",
-    "Temp_qartod_flat_line_test",
-    "Temp_qartod_rate_of_change_test"
-  ],
-  "depth": "Depth"
-},
-{
-  "id": "URI_QP_Exo_Top",
-  "label": "Station",
-  "tempVar": "Temp",
-  "qcVar": [
-    "Temp_qartod_gross_range_test",
-    "Temp_qartod_spike_test",
-    "Temp_qartod_flat_line_test",
-    "Temp_qartod_rate_of_change_test"
-  ],
-  "depth": "Depth"
-},
-{
-  "id": "WHOI_SPOT_32758C",
-  "label": "stationID",
-  "tempVar": "temperature"
-}
+  {
+    "id": "A01_ocean_001m",
+    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
+    "label": "station",
+    "tempVar": "temperature",
+    "qcVar": "temperature_qc_agg",
+    "depth": "depth"
+  },
+  {
+    "id": "A01_ocean_010m",
+    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
+    "label": "station",
+    "tempVar": "temperature",
+    "qcVar": "temperature_qc_agg",
+    "depth": "depth"
+  },
+  {
+    "id": "A01_ocean_002m",
+    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
+    "label": "station",
+    "tempVar": "temperature",
+    "qcVar": "temperature_qc_agg",
+    "depth": "depth"
+  },
+  {
+    "id": "A01_ocean_020m",
+    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
+    "label": "station",
+    "tempVar": "temperature",
+    "qcVar": "temperature_qc_agg",
+    "depth": "depth"
+  },
+  {
+    "id": "A01_ocean_003m",
+    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
+    "label": "station",
+    "tempVar": "temperature",
+    "qcVar": "temperature_qc_agg",
+    "depth": "depth"
+  },
+  {
+    "id": "A01_ocean_050m",
+    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
+    "label": "station",
+    "tempVar": "temperature",
+    "qcVar": "temperature_qc_agg",
+    "depth": "depth"
+  },
+  {
+    "id": "A01_ocean_051m",
+    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
+    "label": "station",
+    "tempVar": "temperature",
+    "qcVar": "temperature_qc_agg",
+    "depth": "depth"
+  },
+  {
+    "id": "A01_ocean_agg",
+    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
+    "label": "station",
+    "tempVar": "temperature",
+    "qcVar": "temperature_qc_agg",
+    "depth": "depth"
+  },
+  {
+    "id": "B01_ocean_001m",
+    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
+    "label": "station",
+    "tempVar": "temperature",
+    "qcVar": "temperature_qc_agg",
+    "depth": "depth"
+  },
+  {
+    "id": "B01_ocean_010m",
+    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
+    "label": "station",
+    "tempVar": "temperature",
+    "qcVar": "temperature_qc_agg",
+    "depth": "depth"
+  },
+  {
+    "id": "B01_ocean_002m",
+    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
+    "label": "station",
+    "tempVar": "temperature",
+    "qcVar": "temperature_qc_agg",
+    "depth": "depth"
+  },
+  {
+    "id": "B01_ocean_020m",
+    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
+    "label": "station",
+    "tempVar": "temperature",
+    "qcVar": "temperature_qc_agg",
+    "depth": "depth"
+  },
+  {
+    "id": "B01_ocean_003m",
+    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
+    "label": "station",
+    "tempVar": "temperature",
+    "qcVar": "temperature_qc_agg",
+    "depth": "depth"
+  },
+  {
+    "id": "B01_ocean_050m",
+    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
+    "label": "station",
+    "tempVar": "temperature",
+    "qcVar": "temperature_qc_agg",
+    "depth": "depth"
+  },
+  {
+    "id": "B01_ocean_agg",
+    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
+    "label": "station",
+    "tempVar": "temperature",
+    "qcVar": "temperature_qc_agg",
+    "depth": "depth"
+  },
+  {
+    "id": "CVOW_temp_wave",
+    "institution": "Virginia Electric and Power Company, d/b/a Dominion Energy Virginia",
+    "label": "station",
+    "tempVar": "WATER_TEMPERATURE"
+  },
+  {
+    "id": "E01_ocean_001m",
+    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
+    "label": "station",
+    "tempVar": "temperature",
+    "qcVar": "temperature_qc_agg",
+    "depth": "depth"
+  },
+  {
+    "id": "E01_ocean_010m",
+    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
+    "label": "station",
+    "tempVar": "temperature",
+    "qcVar": "temperature_qc_agg",
+    "depth": "depth"
+  },
+  {
+    "id": "E01_ocean_002m",
+    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
+    "label": "station",
+    "tempVar": "temperature",
+    "qcVar": "temperature_qc_agg",
+    "depth": "depth"
+  },
+  {
+    "id": "E01_ocean_020m",
+    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
+    "label": "station",
+    "tempVar": "temperature",
+    "qcVar": "temperature_qc_agg",
+    "depth": "depth"
+  },
+  {
+    "id": "E01_ocean_003m",
+    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
+    "label": "station",
+    "tempVar": "temperature",
+    "qcVar": "temperature_qc_agg",
+    "depth": "depth"
+  },
+  {
+    "id": "E01_ocean_050m",
+    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
+    "label": "station",
+    "tempVar": "temperature",
+    "qcVar": "temperature_qc_agg",
+    "depth": "depth"
+  },
+  {
+    "id": "E01_ocean_agg",
+    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
+    "label": "station",
+    "tempVar": "temperature",
+    "qcVar": "temperature_qc_agg",
+    "depth": "depth"
+  },
+  {
+    "id": "nefsc_emolt_trawl_temp",
+    "institution": "NOAA's Northeast Fisheries Science Center and the Gulf of Maine Lobster Foundation",
+    "label": "vessel",
+    "tempVar": "mean_temp",
+    "depth": "depth"
+  },
+  {
+    "id": "Empire_adcp",
+    "institution": "Empire Wind",
+    "label": "station",
+    "tempVar": "ZCel_WTmp",
+    "depth": "depth"
+  },
+  {
+    "id": "Empire_ctd",
+    "institution": "Empire Wind",
+    "label": "station",
+    "tempVar": "CTD_WTmp"
+  },
+  {
+    "id": "F01_ocean_001m",
+    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
+    "label": "station",
+    "tempVar": "temperature",
+    "qcVar": "temperature_qc_agg",
+    "depth": "depth"
+  },
+  {
+    "id": "F01_ocean_010m",
+    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
+    "label": "station",
+    "tempVar": "temperature",
+    "qcVar": "temperature_qc_agg",
+    "depth": "depth"
+  },
+  {
+    "id": "F01_ocean_002m",
+    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
+    "label": "station",
+    "tempVar": "temperature",
+    "qcVar": "temperature_qc_agg",
+    "depth": "depth"
+  },
+  {
+    "id": "F01_ocean_020m",
+    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
+    "label": "station",
+    "tempVar": "temperature",
+    "qcVar": "temperature_qc_agg",
+    "depth": "depth"
+  },
+  {
+    "id": "F01_ocean_003m",
+    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
+    "label": "station",
+    "tempVar": "temperature",
+    "qcVar": "temperature_qc_agg",
+    "depth": "depth"
+  },
+  {
+    "id": "F01_ocean_050m",
+    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
+    "label": "station",
+    "tempVar": "temperature",
+    "qcVar": "temperature_qc_agg",
+    "depth": "depth"
+  },
+  {
+    "id": "F01_ocean_agg",
+    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
+    "label": "station",
+    "tempVar": "temperature",
+    "qcVar": "temperature_qc_agg",
+    "depth": "depth"
+  },
+  {
+    "id": "ONSET_gloucester_hourly_water_level",
+    "institution": "Onset Hobolink",
+    "label": "Station",
+    "tempVar": "Temp"
+  },
+  {
+    "id": "ONSET_hamptonbay_hourly_water_level",
+    "institution": "Onset Hobolink",
+    "label": "Station",
+    "tempVar": "Temp"
+  },
+  {
+    "id": "HI_SPOT_32995C",
+    "institution": "Hurricane Island Center for Science and Leadership",
+    "label": "stationID",
+    "tempVar": "temperature"
+  },
+  
+  {
+    "id": "I01_ocean_001m",
+    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
+    "label": "station",
+    "tempVar": "temperature",
+    "qcVar": "temperature_qc_agg",
+    "depth": "depth"
+  },
+  {
+    "id": "I01_ocean_010m",
+    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
+    "label": "station",
+    "tempVar": "temperature",
+    "qcVar": "temperature_qc_agg",
+    "depth": "depth"
+  },
+  {
+    "id": "I01_ocean_002m",
+    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
+    "label": "station",
+    "tempVar": "temperature",
+    "qcVar": "temperature_qc_agg",
+    "depth": "depth"
+  },
+  {
+    "id": "I01_ocean_020m",
+    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
+    "label": "station",
+    "tempVar": "temperature",
+    "qcVar": "temperature_qc_agg",
+    "depth": "depth"
+  },
+  {
+    "id": "I01_ocean_003m",
+    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
+    "label": "station",
+    "tempVar": "temperature",
+    "qcVar": "temperature_qc_agg",
+    "depth": "depth"
+  },
+  {
+    "id": "I01_ocean_050m",
+    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
+    "label": "station",
+    "tempVar": "temperature",
+    "qcVar": "temperature_qc_agg",
+    "depth": "depth"
+  },
+  {
+    "id": "I01_ocean_agg",
+    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
+    "label": "station",
+    "tempVar": "temperature",
+    "qcVar": "temperature_qc_agg",
+    "depth": "depth"
+  },
+  {
+    "id": "M01_ocean_001m",
+    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
+    "label": "station",
+    "tempVar": "temperature",
+    "qcVar": "temperature_qc_agg",
+    "depth": "depth"
+  },
+  {
+    "id": "M01_ocean_010m",
+    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
+    "label": "station",
+    "tempVar": "temperature",
+    "qcVar": "temperature_qc_agg",
+    "depth": "depth"
+  },
+  {
+    "id": "M01_ocean_100m",
+    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
+    "label": "station",
+    "tempVar": "temperature",
+    "qcVar": "temperature_qc_agg",
+    "depth": "depth"
+  },
+  {
+    "id": "M01_ocean_150m",
+    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
+    "label": "station",
+    "tempVar": "temperature",
+    "qcVar": "temperature_qc_agg",
+    "depth": "depth"
+  },
+  {
+    "id": "M01_ocean_002m",
+    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
+    "label": "station",
+    "tempVar": "temperature",
+    "qcVar": "temperature_qc_agg",
+    "depth": "depth"
+  },
+  {
+    "id": "M01_ocean_020m",
+    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
+    "label": "station",
+    "tempVar": "temperature",
+    "qcVar": "temperature_qc_agg",
+    "depth": "depth"
+  },
+  {
+    "id": "M01_ocean_200m",
+    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
+    "label": "station",
+    "tempVar": "temperature",
+    "qcVar": "temperature_qc_agg",
+    "depth": "depth"
+  },
+  {
+    "id": "M01_ocean_250m",
+    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
+    "label": "station",
+    "tempVar": "temperature",
+    "qcVar": "temperature_qc_agg",
+    "depth": "depth"
+  },
+  {
+    "id": "M01_ocean_003m",
+    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
+    "label": "station",
+    "tempVar": "temperature",
+    "qcVar": "temperature_qc_agg",
+    "depth": "depth"
+  },
+  {
+    "id": "M01_ocean_050m",
+    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
+    "label": "station",
+    "tempVar": "temperature",
+    "qcVar": "temperature_qc_agg",
+    "depth": "depth"
+  },
+  {
+    "id": "M01_ocean_agg",
+    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
+    "label": "station",
+    "tempVar": "temperature",
+    "qcVar": "temperature_qc_agg",
+    "depth": "depth"
+  },
+  {
+    "id": "MMA_XYLEM_NANTUCKET",
+    "institution": "Maria Mitchell Association",
+    "label": "station_name",
+    "tempVar": "temperature",
+    "depth": "depth"
+  },
+  {
+    "id": "N01_ocean_001m",
+    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
+    "label": "station",
+    "tempVar": "temperature",
+    "qcVar": "temperature_qc_agg",
+    "depth": "depth"
+  },
+  {
+    "id": "N01_ocean_002m",
+    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
+    "label": "station",
+    "tempVar": "temperature",
+    "qcVar": "temperature_qc_agg",
+    "depth": "depth"
+  },
+  {
+    "id": "N01_ocean_020m",
+    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
+    "label": "station",
+    "tempVar": "temperature",
+    "qcVar": "temperature_qc_agg",
+    "depth": "depth"
+  },
+  {
+    "id": "N01_ocean_003m",
+    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
+    "label": "station",
+    "tempVar": "temperature",
+    "qcVar": "temperature_qc_agg",
+    "depth": "depth"
+  },
+  {
+    "id": "N01_ocean_050m",
+    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
+    "label": "station",
+    "tempVar": "temperature",
+    "qcVar": "temperature_qc_agg",
+    "depth": "depth"
+  },
+  {
+    "id": "N01_ocean_agg",
+    "institution": "Physical Oceanography Group, School of Marine Sciences, University of Maine",
+    "label": "station",
+    "tempVar": "temperature",
+    "qcVar": "temperature_qc_agg",
+    "depth": "depth"
+  },
+  {
+    "id": "NDBC_44005",
+    "institution": "NOAA NDBC",
+    "label": "platform_id",
+    "tempVar": "WTMP"
+  },
+  {
+    "id": "NDBC_44007",
+    "institution": "NOAA NDBC",
+    "label": "platform_id",
+    "tempVar": "WTMP"
+  },
+  {
+    "id": "NDBC_44008",
+    "institution": "NOAA NDBC",
+    "label": "platform_id",
+    "tempVar": "WTMP"
+  },
+  {
+    "id": "NDBC_44011",
+    "institution": "NOAA NDBC",
+    "label": "platform_id",
+    "tempVar": "WTMP"
+  },
+  {
+    "id": "NDBC_44013",
+    "institution": "NOAA NDBC",
+    "label": "platform_id",
+    "tempVar": "WTMP"
+  },
+  {
+    "id": "NDBC_44018",
+    "institution": "NOAA NDBC",
+    "label": "platform_id",
+    "tempVar": "WTMP"
+  },
+  {
+    "id": "NDBC_44020",
+    "institution": "NOAA NDBC",
+    "label": "platform_id",
+    "tempVar": "WTMP"
+  },
+  {
+    "id": "NDBC_44025",
+    "institution": "NOAA NDBC",
+    "label": "platform_id",
+    "tempVar": "WTMP"
+  },
+  {
+    "id": "NDBC_44027",
+    "institution": "NOAA NDBC",
+    "label": "platform_id",
+    "tempVar": "WTMP"
+  },
+  {
+    "id": "NDBC_44065",
+    "institution": "NOAA NDBC",
+    "label": "platform_id",
+    "tempVar": "WTMP"
+  },
+  {
+    "id": "NDBC_44069",
+    "institution": "NOAA NDBC",
+    "label": "platform_id",
+    "tempVar": "WTMP"
+  },
+  {
+    "id": "NDBC_44090",
+    "institution": "NOAA NDBC",
+    "label": "platform_id",
+    "tempVar": "WTMP"
+  },
+  {
+    "id": "NDBC_BLTM3",
+    "institution": "NOAA NDBC",
+    "label": "platform_id",
+    "tempVar": "WTMP"
+  },
+  {
+    "id": "NDBC_BZBM3",
+    "institution": "NOAA NDBC",
+    "label": "platform_id",
+    "tempVar": "WTMP"
+  },
+  {
+    "id": "NDBC_C-MAN_BUZM3",
+    "institution": "NOAA NDBC",
+    "label": "platform_id",
+    "tempVar": "WTMP"
+  },
+  {
+    "id": "NDBC_C-MAN_DBLN6",
+    "institution": "NOAA NDBC",
+    "label": "platform_id",
+    "tempVar": "WTMP"
+  },
+  {
+    "id": "NDBC_C-MAN_IOSN3",
+    "institution": "NOAA NDBC",
+    "label": "platform_id",
+    "tempVar": "WTMP"
+  },
+  {
+    "id": "NDBC_C-MAN_MDRM1",
+    "institution": "NOAA NDBC",
+    "label": "platform_id",
+    "tempVar": "WTMP"
+  },
+  {
+    "id": "NDBC_C-MAN_MISM1",
+    "institution": "NOAA NDBC",
+    "label": "platform_id",
+    "tempVar": "WTMP"
+  },
+  {
+    "id": "NDBC_CASM1",
+    "institution": "NOAA NDBC",
+    "label": "platform_id",
+    "tempVar": "WTMP"
+  },
+  {
+    "id": "NDBC_CFWM1",
+    "institution": "NOAA NDBC",
+    "label": "platform_id",
+    "tempVar": "WTMP"
+  },
+  {
+    "id": "NDBC_CHTM3",
+    "institution": "NOAA NDBC",
+    "label": "platform_id",
+    "tempVar": "WTMP"
+  },
+  {
+    "id": "NDBC_CPTR1",
+    "institution": "NOAA NDBC",
+    "label": "platform_id",
+    "tempVar": "WTMP"
+  },
+  {
+    "id": "NDBC_FOXR1",
+    "institution": "NOAA NDBC",
+    "label": "platform_id",
+    "tempVar": "WTMP"
+  },
+  {
+    "id": "NDBC_FRVM3",
+    "institution": "NOAA NDBC",
+    "label": "platform_id",
+    "tempVar": "WTMP"
+  },
+  {
+    "id": "NDBC_KPTN6",
+    "institution": "NOAA NDBC",
+    "label": "platform_id",
+    "tempVar": "WTMP"
+  },
+  {
+    "id": "NDBC_MTKN6",
+    "institution": "NOAA NDBC",
+    "label": "platform_id",
+    "tempVar": "WTMP"
+  },
+  {
+    "id": "NDBC_NBGM3",
+    "institution": "NOAA NDBC",
+    "label": "platform_id",
+    "tempVar": "WTMP"
+  },
+  {
+    "id": "NDBC_NERRS_BGXN3",
+    "institution": "NOAA NDBC",
+    "label": "platform_id",
+    "tempVar": "WTMP"
+  },
+  {
+    "id": "NDBC_NERRS_GBQN3_WQ",
+    "institution": "NOAA NDBC",
+    "label": "platform_id",
+    "tempVar": "sea_water_temperature"
+  },
+  {
+    "id": "NDBC_NERRS_NAQR1_WQ",
+    "institution": "NOAA NDBC",
+    "label": "platform_id",
+    "tempVar": "sea_water_temperature"
+  },
+  {
+    "id": "NDBC_NERRS_NAXR1",
+    "institution": "NOAA NDBC",
+    "label": "platform_id",
+    "tempVar": "WTMP"
+  },
+  {
+    "id": "NDBC_NERRS_WAQM3_WQ",
+    "institution": "NOAA NDBC",
+    "label": "platform_id",
+    "tempVar": "sea_water_temperature"
+  },
+  {
+    "id": "NDBC_NERRS_WAXM3",
+    "institution": "NOAA NDBC",
+    "label": "platform_id",
+    "tempVar": "WTMP"
+  },
+  {
+    "id": "NDBC_NERRS_WEBM1_WQ",
+    "institution": "NOAA NDBC",
+    "label": "platform_id",
+    "tempVar": "sea_water_temperature"
+  },
+  {
+    "id": "NDBC_NERRS_WEQM1_WQ",
+    "institution": "NOAA NDBC",
+    "label": "platform_id",
+    "tempVar": "sea_water_temperature"
+  },
+  {
+    "id": "NDBC_NERRS_WEXM1",
+    "institution": "NOAA NDBC",
+    "label": "platform_id",
+    "tempVar": "WTMP"
+  },
+  {
+    "id": "NDBC_NWHC3",
+    "institution": "NOAA NDBC",
+    "label": "platform_id",
+    "tempVar": "WTMP"
+  },
+  {
+    "id": "NDBC_PDVR1",
+    "institution": "NOAA NDBC",
+    "label": "platform_id",
+    "tempVar": "WTMP"
+  },
+  {
+    "id": "NDBC_QPTR1",
+    "institution": "NOAA NDBC",
+    "label": "platform_id",
+    "tempVar": "WTMP"
+  },
+  {
+    "id": "NDBC_SEIM1",
+    "institution": "NOAA NDBC",
+    "label": "platform_id",
+    "tempVar": "WTMP"
+  },
+  {
+    "id": "SLL-2699",
+    "institution": "Stone Living Lab - a partnership between Boston Harbor Now, UMass Boston's School for the Environment, the City of Boston, the Massachusetts Department of Conservation and Recreation, the Massachusetts Executive Office of Energy and Environmental Affairs, the National Park Service, and the James M. and Cathleen D. Stone Foundation",
+    "label": "stationID",
+    "tempVar": "water_temperature"
+  },
+  {
+    "id": "SFW01_Water",
+    "institution": "South Fork Wind - a partnership between Orsted and Global Infrastructure Partners",
+    "label": "station",
+    "tempVar": "ZCel_WTmp"
+  },
+  {
+    "id": "UMaine_SPOT_0755",
+    "institution": "University of Maine",
+    "label": "stationID",
+    "tempVar": "temperature"
+  },
+  {
+    "id": "UNE_SPOT_32787C",
+    "institution": "University of New England",
+    "label": "stationID",
+    "tempVar": "temperature"
+  },
+  {
+    "id": "UNE_SPOT_32905C",
+    "institution": "University of New England",
+    "label": "stationID",
+    "tempVar": "temperature"
+  },
+  {
+    "id": "UNH_WBD",
+    "institution": "Ocean Process Analysis Laboratory - University of New Hampshire",
+    "label": "platform",
+    "tempVar": "temperature",
+    "qcVar": "temperature_QARTOD_agg",
+    "depth": "depth"
+  },
+  {
+    "id": "UNH_CML",
+    "institution": "Ocean Process Analysis Laboratory - University of New Hampshire",
+    "label": "platform",
+    "tempVar": "temperature",
+    "qcVar": "temperature_QARTOD_agg",
+    "depth": "depth"
+  },
+  {
+    "id": "UNH_GBB",
+    "institution": "Ocean Process Analysis Laboratory - University of New Hampshire",
+    "label": "platform",
+    "tempVar": "temperature",
+    "qcVar": "temperature_QARTOD_agg",
+    "depth": "depth"
+  },
+  {
+    "id": "UNH_JEL",
+    "institution": "Ocean Process Analysis Laboratory - University of New Hampshire",
+    "label": "platform",
+    "tempVar": "temperature",
+    "qcVar": "temperature_QARTOD_agg",
+    "depth": "depth"
+  },
+  {
+    "id": "WHOI_SPOT_32758C",
+    "institution": "WHOI Sea Grant",
+    "label": "stationID",
+    "tempVar": "temperature"
+  }
 ]
